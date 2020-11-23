@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 class MovieCard extends React.Component {
   render() {
+    console.log(this.props.movie)
     const { title, storyline, imagePath, genre, rating, subtitle, id } = this.props.movie;
     return (
       <div className="movie-card" data-testid="movie-card">

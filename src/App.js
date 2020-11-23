@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route component={MovieList} exact path="/" />
+        <Route component={MovieList} exact path="/trybe-react-project-movie-card-library-crud" />
         <Route component={NewMovie} exact path="/movies/new" />
         <Route component={EditMovie} exact path="/movies/:id/edit" />
         <Route component={MovieDetails} exact path="/movies/:id" />
