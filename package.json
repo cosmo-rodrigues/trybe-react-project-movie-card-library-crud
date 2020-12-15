@@ -1,5 +1,5 @@
 {
-  "name": "sd-0x-block14-project-movie-card-library-crud",
+  "name": "trybe-react-project-movie-card-library-crud",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,10 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
+  "homepage": "https://cosmors.github.io/trybe-react-project-movie-card-library-crud",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
